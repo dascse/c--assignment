@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(c__assignment
         .gitattributes
-        "1st task.c")
+        "5th task.c")

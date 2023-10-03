@@ -1,3 +1,18 @@
 # ninja log v5
-5	1839	7175360683117030	CMakeFiles/c__assignment.dir/1st_task.c.obj	b12f1b5ac772a007
-1846	3473	7175360699502359	c__assignment.exe	756ced39a2a967f6
+4	2671	7180487060094666	CMakeFiles/c__assignment.dir/1st_task.c.obj	7ef3c12cb6b6d849
+380	1006	7180499517062028	c__assignment.exe	2fa994b762c3360d
+7	2993	7180481973967994	CMakeFiles/c__assignment.dir/2nd_task.c.obj	e4ac0e9e2cd6cb3a
+4	1366	7180500833500191	build.ninja	f635218134d03f0
+1	389	7180483642690502	CMakeFiles/c__assignment.dir/3rd_task.c.obj	3e022c32c71a8b12
+2	378	7180499510848558	CMakeFiles/c__assignment.dir/4th_task.c.obj	ef510645a9055802
+7	920	7180500833500191	build.ninja	f635218134d03f0
+1	477	7180500842815517	CMakeFiles/c__assignment.dir/5th_task.c.obj	805495f50e19d263
+481	1092	7180500848850474	c__assignment.exe	c733fdabf2b5f332
+3	471	7180501417984086	CMakeFiles/c__assignment.dir/5th_task.c.obj	805495f50e19d263
+473	1066	7180501423740621	c__assignment.exe	c733fdabf2b5f332
+4	483	7180501977828369	CMakeFiles/c__assignment.dir/5th_task.c.obj	805495f50e19d263
+486	1161	7180501984483863	c__assignment.exe	c733fdabf2b5f332
+3	444	7180502266206879	CMakeFiles/c__assignment.dir/5th_task.c.obj	805495f50e19d263
+446	1073	7180502272425944	c__assignment.exe	c733fdabf2b5f332
+3	373	7180502892549672	CMakeFiles/c__assignment.dir/5th_task.c.obj	805495f50e19d263
+374	998	7180502898724940	c__assignment.exe	c733fdabf2b5f332
