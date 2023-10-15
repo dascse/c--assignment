@@ -1,13 +1,10 @@
-//
-// Created by Admin on
-#include <stdio.h>
-int main() {
-    for(int i=1;i<=5;i++)
-    {
-        for(int j=1;j<=i;j++)
-        {
-            printf("%d ",j);
-        }
-        printf("\n");
-    }
+//Write a program in c to change the value of a variable by taking an input from the user.
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the number:");
+    scanf("%d",&a);
+    printf("%d\n",a);
+    printf("%d\n",++a);
 }
