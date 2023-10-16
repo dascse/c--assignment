@@ -12,3 +12,8 @@ add_executable(3 "3rd task.c")
 add_executable( 4 "4th task.c")
 add_executable(5 "5th task.c")
 add_executable(7 "7th task.c")
+add_executable(8 "8th.c")
+add_executable(9 "9th.c")
+add_executable(10 "10th.c")
+add_executable(11 "11th.c")
+

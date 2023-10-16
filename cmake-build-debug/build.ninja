@@ -278,6 +278,142 @@ build 7.exe: C_EXECUTABLE_LINKER__7_Debug CMakeFiles/7.dir/7th_task.c.obj
   TARGET_IMPLIB = lib7.dll.a
   TARGET_PDB = 7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 8
+
+
+#############################################
+# Order-only phony target for 8
+
+build cmake_object_order_depends_target_8: phony || CMakeFiles/8.dir
+
+build CMakeFiles/8.dir/8th.c.obj: C_COMPILER__8_unscanned_Debug C$:/Users/Admin/Documents/GitHub/c--assignment/8th.c || cmake_object_order_depends_target_8
+  DEP_FILE = CMakeFiles\8.dir\8th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/c--assignment/.
+  OBJECT_DIR = CMakeFiles\8.dir
+  OBJECT_FILE_DIR = CMakeFiles\8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8
+
+
+#############################################
+# Link the executable 8.exe
+
+build 8.exe: C_EXECUTABLE_LINKER__8_Debug CMakeFiles/8.dir/8th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.exe
+  TARGET_IMPLIB = lib8.dll.a
+  TARGET_PDB = 8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9
+
+
+#############################################
+# Order-only phony target for 9
+
+build cmake_object_order_depends_target_9: phony || CMakeFiles/9.dir
+
+build CMakeFiles/9.dir/9th.c.obj: C_COMPILER__9_unscanned_Debug C$:/Users/Admin/Documents/GitHub/c--assignment/9th.c || cmake_object_order_depends_target_9
+  DEP_FILE = CMakeFiles\9.dir\9th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/c--assignment/.
+  OBJECT_DIR = CMakeFiles\9.dir
+  OBJECT_FILE_DIR = CMakeFiles\9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9
+
+
+#############################################
+# Link the executable 9.exe
+
+build 9.exe: C_EXECUTABLE_LINKER__9_Debug CMakeFiles/9.dir/9th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9.exe
+  TARGET_IMPLIB = lib9.dll.a
+  TARGET_PDB = 9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10
+
+
+#############################################
+# Order-only phony target for 10
+
+build cmake_object_order_depends_target_10: phony || CMakeFiles/10.dir
+
+build CMakeFiles/10.dir/10th.c.obj: C_COMPILER__10_unscanned_Debug C$:/Users/Admin/Documents/GitHub/c--assignment/10th.c || cmake_object_order_depends_target_10
+  DEP_FILE = CMakeFiles\10.dir\10th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/c--assignment/.
+  OBJECT_DIR = CMakeFiles\10.dir
+  OBJECT_FILE_DIR = CMakeFiles\10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10
+
+
+#############################################
+# Link the executable 10.exe
+
+build 10.exe: C_EXECUTABLE_LINKER__10_Debug CMakeFiles/10.dir/10th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10.exe
+  TARGET_IMPLIB = lib10.dll.a
+  TARGET_PDB = 10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11
+
+
+#############################################
+# Order-only phony target for 11
+
+build cmake_object_order_depends_target_11: phony || CMakeFiles/11.dir
+
+build CMakeFiles/11.dir/11th.c.obj: C_COMPILER__11_unscanned_Debug C$:/Users/Admin/Documents/GitHub/c--assignment/11th.c || cmake_object_order_depends_target_11
+  DEP_FILE = CMakeFiles\11.dir\11th.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/Documents/GitHub/c--assignment/.
+  OBJECT_DIR = CMakeFiles\11.dir
+  OBJECT_FILE_DIR = CMakeFiles\11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11
+
+
+#############################################
+# Link the executable 11.exe
+
+build 11.exe: C_EXECUTABLE_LINKER__11_Debug CMakeFiles/11.dir/11th.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11.exe
+  TARGET_IMPLIB = lib11.dll.a
+  TARGET_PDB = 11.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -308,6 +444,10 @@ build .1: phony .1.exe
 
 build .6: phony .6.exe
 
+build 10: phony 10.exe
+
+build 11: phony 11.exe
+
 build 2: phony 2.exe
 
 build 3: phony 3.exe
@@ -318,6 +458,10 @@ build 5: phony 5.exe
 
 build 7: phony 7.exe
 
+build 8: phony 8.exe
+
+build 9: phony 9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -326,7 +470,7 @@ build 7: phony 7.exe
 #############################################
 # Folder: C:/Users/Admin/Documents/GitHub/c--assignment/cmake-build-debug
 
-build all: phony .6.exe .1.exe 2.exe 3.exe 4.exe 5.exe 7.exe
+build all: phony .6.exe .1.exe 2.exe 3.exe 4.exe 5.exe 7.exe 8.exe 9.exe 10.exe 11.exe
 
 # =============================================================================
 # Built-in targets
